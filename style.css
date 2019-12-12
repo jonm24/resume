@@ -24,8 +24,8 @@ div#header {
 div#main {
     box-sizing: border-box;
     background-color: white;
-    height: 115%;
-    width: 40%;
+    height: 110%;
+    width: 30%;
     margin: 80px auto;
     font-family: 'Karla', sans-serif;
     font-size: 40px;
@@ -40,7 +40,7 @@ div#underline {
     box-sizing: border-box;
     margin: 0 auto;
     height: 8px;
-    width: 60%;
+    width: 70%;
     border-radius: 50px;
     background-color: black;
 }
@@ -75,7 +75,7 @@ div#content {
 div#resumeTitle {
     box-sizing: border-box;
     background-color: transparent;
-    width: 600px;
+    width: 50%;
     height: 50px;
     margin: 350px auto 10px auto;
     font-family: 'Karla', sans-serif;
@@ -103,6 +103,85 @@ p {
     margin-bottom: 0px;
     padding-right: 35px;
 }
-@media only screen and (max-width: 768px) {
 
-  }
+@media only screen and (max-width: 1500px) {
+    div#main {
+        width: 40%;
+    }
+    div#content {
+        width: 55%;
+    }
+}
+@media only screen and (max-width: 1220px) {
+    div#main {
+        width: 45%;
+    }
+    div#content {
+        width: 60%;
+    }
+}
+
+@media only screen and (max-width: 1050px) {
+    div#main {
+        width: 50%;
+        font-size: 35px;
+    }
+    div#content {
+        width: 70%;
+    }
+    div#resumeTitle {
+        margin: 340px auto 10px auto;
+    }
+    h2 {
+        font-size: 25px;
+    }
+}
+@media only screen and (max-width: 750px) {
+    div#resumeTitle {
+        font-size: 30px;
+    }
+    div#main {
+        width: 60%;
+        font-size: 30px;
+    }
+    div#content {
+        width: 75%;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    div#underline {
+        width: 80%;
+    }
+    div#resumeTitle {
+        margin: 310px auto 10px auto;
+        font-size: 30px;
+    }
+    div#main {
+        height: 100%;
+        width: 65%;
+        font-size: 26px;
+        letter-spacing: -1px;
+    }
+    div#underName {
+        font-size: 14px;
+    }
+    div#content {
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 360px) {
+    div#main {
+        width: 80%;
+        padding-top: 30px;
+        height: 90%;
+    }
+    div#resumeTitle {
+        margin: 290px auto 5px auto;
+    }
+    div#content {
+        width: 90%;
+    }
+}
+
