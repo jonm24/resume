@@ -104,7 +104,7 @@ p {
     line-height: 20px;
 }
 ul {
-    list-style-type: '- ';
+    list-style-type: '- ' !important;
     line-height: 20px;
 }
 li {
