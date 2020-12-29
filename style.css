@@ -108,6 +108,7 @@ ul {
     line-height: 20px;
 }
 li {
+    list-style-type: '- ' !important;
     font-family: 'Karla', sans-serif;
 }
 .semi { 
